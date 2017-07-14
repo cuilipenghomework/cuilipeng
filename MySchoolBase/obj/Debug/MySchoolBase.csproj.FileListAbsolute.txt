@@ -1,0 +1,6 @@
+F:\北大青鸟詹老师U2\20170711上课资料\MySchoolBase\bin\Debug\MySchoolBase.exe.config
+F:\北大青鸟詹老师U2\20170711上课资料\MySchoolBase\bin\Debug\MySchoolBase.exe
+F:\北大青鸟詹老师U2\20170711上课资料\MySchoolBase\bin\Debug\MySchoolBase.pdb
+F:\北大青鸟詹老师U2\20170711上课资料\MySchoolBase\obj\Debug\MySchoolBase.exe
+F:\北大青鸟詹老师U2\20170711上课资料\MySchoolBase\obj\Debug\MySchoolBase.pdb
+F:\北大青鸟詹老师U2\20170711上课资料\MySchoolBase\obj\Debug\MySchoolBase.csprojResolveAssemblyReference.cache
