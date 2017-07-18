@@ -1,0 +1,14 @@
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1.DAL\bin\Debug\MySchool1DAL.dll
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1.DAL\bin\Debug\MySchool1DAL.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1.DAL\obj\Debug\MySchool1DAL.dll
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1.DAL\obj\Debug\MySchool1DAL.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1.DAL\bin\Debug\MySchool.Models.dll
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1.DAL\bin\Debug\MySchool.Models.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1.DAL\obj\Debug\MySchool1.DAL.csprojResolveAssemblyReference.cache
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool1.DAL\bin\Debug\MySchool1DAL.dll
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool1.DAL\bin\Debug\MySchool1DAL.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool1.DAL\bin\Debug\MySchool.Models.dll
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool1.DAL\bin\Debug\MySchool.Models.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool1.DAL\obj\Debug\MySchool1.DAL.csprojResolveAssemblyReference.cache
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool1.DAL\obj\Debug\MySchool1DAL.dll
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool1.DAL\obj\Debug\MySchool1DAL.pdb

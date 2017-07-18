@@ -1,0 +1,13 @@
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1\MySchool.Models\bin\Debug\MySchool.Models.dll
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1\MySchool.Models\bin\Debug\MySchool.Models.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1\MySchool.Models\obj\Debug\MySchool.Models.dll
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool1\MySchool.Models\obj\Debug\MySchool.Models.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool.Models\bin\Debug\MySchool.Models.dll
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool.Models\bin\Debug\MySchool.Models.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool.Models\obj\Debug\MySchool.Models.dll
+F:\北大青鸟詹老师U2\20170717上课资料\MySchool.Models\obj\Debug\MySchool.Models.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool.Models\bin\Debug\MySchool.Models.dll
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool.Models\bin\Debug\MySchool.Models.pdb
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool.Models\obj\Debug\MySchool.Models.csprojResolveAssemblyReference.cache
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool.Models\obj\Debug\MySchool.Models.dll
+F:\北大青鸟詹老师U2\20170717上课资料\新建文件夹\MySchool.Models\obj\Debug\MySchool.Models.pdb
