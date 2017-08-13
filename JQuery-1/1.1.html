@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>统计包含“a”或“A”的字符串的个数</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+            document.write("在以下字符中："+"</br>");
+//			document.write("asdfg")
+//			document.write("adfghj")
+//			document.write("dfghjk")
+			var opp=new Array("Asdfg","gkssa","dAlmnwwwvbz");
+			var num=0;
+			for(var i in opp)
+			{
+				document.write(opp[i]+"</br>");
+				if(opp[i].indexOf("a")!=-1 || opp[i].indexOf("A")!=-1)
+				{
+					num=num+1;
+				}
+			}
+			document.write("共有"+num+"个字符串包含a或A");
+		</script>
+	</body>
+</html>

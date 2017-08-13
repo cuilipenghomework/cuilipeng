@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>四则运算函数</title>
+		<script type="text/javascript">
+			function calculate()
+			{
+			  var a=parseFloat(prompt("请输入第一个数",""))
+			  var b=parseFloat(prompt("请输入第二个数",""))
+			  var c=prompt("请输入运算符","")
+			  var d
+			  switch(c)
+			  {
+			  	case "+":
+			  	  d=a+b;
+			  	  alert("两数运算结果为："+a+c+b+"="+d)
+			  	  break;
+			  	case "-":
+			  	  d=a-b;
+			  	  alert("两数运算结果为："+a+c+b+"="+d)
+			  	  break;
+			  	case "*":
+			  	  d=a*b;
+			  	  alert("两数运算结果为："+a+c+b+"="+d)
+			  	  break;
+			  	case "/":
+			  	  d=a/b;
+			  	  alert("两数运算结果为："+a+c+b+"="+d)
+			  	default:
+			  	  alert("错误")
+			  }
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" onclick="calculate()" value="计算两数运算结果" />
+	</body>
+</html>

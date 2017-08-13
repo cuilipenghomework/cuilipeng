@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>统计考试科目的成绩</title>
+		<script type="text/javascript">
+			function calculate()
+			{
+			  var b=0
+			  var a=parseFloat(prompt("请输入考试科目数",""))
+			  if(a<=0)
+			  {
+			  	alert("输入的不是数字")
+			    return
+			  }
+			  else
+			  {
+			  	for(var i=0;i<a;i++)
+			  	{
+			  	 var c=parseFloat(prompt("请输入成绩",""))
+			  	 if(c<0)
+			  	 {
+			  	 	alert("输入的不是数字")
+			     	return
+			  	 }
+			  	 b=b+c
+			  	}
+			  }
+			  alert(a+"门课总成绩为："+b)
+			}
+		</script>
+	</head>
+	<body onload="calculate()">
+
+	</body>
+</html>

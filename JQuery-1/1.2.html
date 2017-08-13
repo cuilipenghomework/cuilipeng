@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>学员操作—调试程序</title>
+		<script type="text/javascript">
+			var time=prompt("输入时间","")
+			if(time>=6&&time<12)
+			{
+				document.write("上午好！欢迎来到贵美"+"</br>")
+				for(var i=0;i<=8;i++)
+				{
+				  document.write("<img src='img/smile.gif' />")
+				}
+			}
+			else if(time>=12&&time<18)
+			{
+				document.write("下午午好！欢迎来到贵美"+"</br>")
+				for(var i=0;i<=8;i++)
+				{
+				  document.write("<img src='img/aftermoon.gif' />")
+				}
+			}
+			else if(time>=18||time<6)
+			{
+				document.write("晚上好！欢迎来到贵美"+"</br>")
+				for(var i=0;i<=8;i++)
+				{
+				  document.write("<img src='img/moon.gif' />")
+				}
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
