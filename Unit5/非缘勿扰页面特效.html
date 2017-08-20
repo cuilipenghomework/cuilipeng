@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>非缘勿扰页面特效</title>
+		<style type="text/css">
+			div{
+				position: relative;
+			}
+			div img:nth-of-type(2){
+				position: absolute;
+				top: 230px;
+				left: 0px;
+			}
+			div dl{
+				position: absolute;
+				left: 130px;
+				top: -10px;
+			}
+			div img:nth-of-type(3){
+				position: absolute;
+				top: 220px;
+				left: 170px;
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	</head>
+	<body>
+		<div>
+			<img src="img/练习3/pic.gif" />
+			<img src="img/练习3/col.gif" />
+			<img src="img/练习3/btn.gif" />
+			<dl>
+				<dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;非缘勿扰</dt>
+				<dd><span>主演：</span>苏有朋/秦岚/傅艺伟等</dd>
+				<dd><span id="1">导演：</span><span id="2">赖水清</span></dd>
+				<dd><span id="3">标签：</span><span id="4" class="2">苏有朋 </span>&nbsp;国产电视剧&nbsp;<span id="4" class="2">2013</span>&nbsp;连续剧</dd>
+				<dd><span>剧情：</span>当代都市，大年女刘林、杨阳都在寻找自己的如意郎君，刘林偶遇陆氏房地产总裁路西诺，两人成了欢喜冤家，遭到暗恋西诺的丁娟的嫉恨。。。<a href="#">点击了解更多 </a></dd>
+			</dl>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("dt").click(function(){
+				$("dd span[id!='2']").css({"color":"#FF0099","font-weight":"bold"})
+			})
+			$("#1").click(function(){
+				$("#2").css("font-weight","bold")
+			})
+			$("#3").click(function(){
+				$(".2").css({"color":"#10A14B","background":"#E0F8EA","padding":"2px 8px"})
+			})
+			$("img[src*='col']").click(function(){
+				alert("您已收藏成功！")
+			})
+		})
+	</script>
+</html>
