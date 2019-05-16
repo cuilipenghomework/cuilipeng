@@ -1,9 +1,10 @@
---½¨Êı¾İ¿âWorkManageSystem
+--æ³¨é‡Šè¦è¯¦ç»†
+--å»ºæ•°æ®åº“WorkManageSystem
 create DataBase WorkManageSystem
 on
 (
    Name='WorkManageSystem_data',
-   FileName='F:\±±´óÇàÄñÕ²ÀÏÊ¦U2\20170701ÉÏ¿Î×ÊÁÏ\×÷Òµ\¹¤×÷¹ÜÀíÊı¾İ¿â\WorkManageSystem.mdf',
+   FileName='F:\åŒ—å¤§é’é¸Ÿè©¹è€å¸ˆU2\20170701ä¸Šè¯¾èµ„æ–™\ä½œä¸š\å·¥ä½œç®¡ç†æ•°æ®åº“\WorkManageSystem.mdf',
    size=5MB,
    maxSize=100MB,
    FileGrowth=15%
@@ -11,13 +12,13 @@ on
 log on
 (
    Name='WorkManageSystem_log',
-   FileName='F:\±±´óÇàÄñÕ²ÀÏÊ¦U2\20170701ÉÏ¿Î×ÊÁÏ\×÷Òµ\¹¤×÷¹ÜÀíÊı¾İ¿â\WorkManageSystem.ldf',
+   FileName='F:\åŒ—å¤§é’é¸Ÿè©¹è€å¸ˆU2\20170701ä¸Šè¯¾èµ„æ–™\ä½œä¸š\å·¥ä½œç®¡ç†æ•°æ®åº“\WorkManageSystem.ldf',
    size=5MB,
    FileGrowth=15%
 )
 use WorkManageSystem
 go
---Joblist£¨Ö°Î»ÁĞ±í£©±í
+--Joblistï¼ˆèŒä½åˆ—è¡¨ï¼‰è¡¨
 if Exists(select * from  sysobjects  where name='Joblist') 
   Drop table Joblist
 go
@@ -33,7 +34,7 @@ create table Joblist
   Jobtitle varchar not null,
   JobDescription varchar not null
 )
---ÉêÇëÖ°Î»±í(ApplyJob)
+--ç”³è¯·èŒä½è¡¨(ApplyJob)
 if Exists(select * from  sysobjects  where name='ApplyJob') 
   Drop table ApplyJob
 go
@@ -46,7 +47,7 @@ create table ApplyJob
   InterviewMan Date,
   InterviewResult varchar(50)
 )
---Ö°Î»ÀàĞÍ±í(JobType)
+--èŒä½ç±»å‹è¡¨(JobType)
 if Exists(select * from  sysobjects  where name='JobType') 
   Drop table JobType
 go
@@ -56,7 +57,7 @@ create table JobType
   JobTypeName varchar(50) not null,
   JobTypeCName varchar(50) not null
 )
---´ğ°¸±í(Answer)
+--ç­”æ¡ˆè¡¨(Answer)
 if Exists(select * from  sysobjects  where name='Answer') 
   Drop table Answer
 go
@@ -67,7 +68,7 @@ create table Answer
   Content varchar(50) not null,
   Mark float not null 
 )
---¼¼ÄÜ±í(Skill)
+--æŠ€èƒ½è¡¨(Skill)
 if Exists(select * from  sysobjects  where name='Skill') 
   Drop table Skill
 go
@@ -80,7 +81,7 @@ create table Skill
   CertName varchar(50) not null,
   SkillDetail varchar(50) not null
 )
---Ö°Î»ÁĞ±í(JobList1)
+--èŒä½åˆ—è¡¨(JobList1)
 if Exists(select * from  sysobjects  where name='JobList1') 
   Drop table JobList1
 go
@@ -96,7 +97,7 @@ create table JobList1
   Requirements varchar(50),
   Others varchar(50)
 )
---ÎÊÌâ±í(Question)
+--é—®é¢˜è¡¨(Question)
 if Exists(select * from  sysobjects  where name='Question') 
   Drop table Question
 go
@@ -110,7 +111,7 @@ create table Question
   Others varchar(50) not null,
   Remark varchar(50) not null
 )
---¸öÈËĞÅÏ¢±í(Personalinfo)
+--ä¸ªäººä¿¡æ¯è¡¨(Personalinfo)
 if Exists(select * from  sysobjects  where name='Personalinfo') 
   Drop table Personalinfo
 go
@@ -138,7 +139,7 @@ create table Personalinfo
   moblie	varchar(50),
   Email	varchar(50)
 )
---¿¼ÊÔÏêÇé±í(Examdetail)
+--è€ƒè¯•è¯¦æƒ…è¡¨(Examdetail)
 if Exists(select * from  sysobjects  where name='Examdetail') 
   Drop table Examdetail
 go
@@ -149,7 +150,7 @@ create table Examdetail
    questID	Integer not null,
    QuestOrder varchar(50) not null
 )
---½ÌÓıÇé¿ö±í(Education)
+--æ•™è‚²æƒ…å†µè¡¨(Education)
 if Exists(select * from  sysobjects  where name='Education') 
   Drop table Education
 go
@@ -161,7 +162,7 @@ create table Education
    EndDate	Date not null,
    name	varchar(50) not null
 )
---¼ÒÍ¥Çé¿ö±í(Family)
+--å®¶åº­æƒ…å†µè¡¨(Family)
 if Exists(select * from  sysobjects  where name='Family') 
   Drop table Family
 go
@@ -175,7 +176,7 @@ create table Family
    Degree	integer not null,
    EduDetail	Varchar(50) not null
 )
---¿¼ÊÔ±í(Exam)
+--è€ƒè¯•è¡¨(Exam)
 if Exists(select * from  sysobjects  where name='Exam') 
   Drop table Exam
 go
@@ -189,7 +190,7 @@ create table Exam
     IssueDate	Date not null,
     JobType	Integer not null
 )
---ÓÃ»§±í(Users)
+--ç”¨æˆ·è¡¨(Users)
 if Exists(select * from  sysobjects  where name='Users') 
   Drop table Users
 go
@@ -200,8 +201,8 @@ create table Users
    UserPwd	varchar(50) not null,
    Permisstion	Integer not null Constraint CK_Permisstion check(Permisstion=0 or Permisstion=1 or Permisstion=2 or Permisstion=3 or Permisstion=4)
 )
-insert users values('´ŞÁ¦Åôfanfeng','123456',2)
---¿¼ÊÔ³É¼¨±í(Examresult)
+insert users values('å´”åŠ›é¹fanfeng','123456',2)
+--è€ƒè¯•æˆç»©è¡¨(Examresult)
 if Exists(select * from  sysobjects  where name='Examresult') 
   Drop table Examresult
 go
@@ -215,8 +216,8 @@ create table Examresult
    AnswerRecord1	varchar(50) not null,
    Marks float not null
 )
-insert Examresult values(111111,1,78,'ºÃ',98,'ºÜºÃ',88)
---Ö°Î»ÎÊÌâ±í(JobExam)
+insert Examresult values(111111,1,78,'å¥½',98,'å¾ˆå¥½',88)
+--èŒä½é—®é¢˜è¡¨(JobExam)
 if Exists(select * from  sysobjects  where name='JobExam') 
   Drop table JobExam
 go
@@ -228,4 +229,4 @@ create table JobExam
     ExamType varchar(50) not null,
     ExamName varchar(50) not null
 )
-insert JobExam values(1,1,'Ó¢Óï' ,'´ŞÁ¦Åô')
+insert JobExam values(1,1,'è‹±è¯­' ,'å´”åŠ›é¹')
